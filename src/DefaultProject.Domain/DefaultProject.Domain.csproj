@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DefaultProject.Shared\DefaultProject.Shared.csproj">
+      <Project>{564EABE2-5C75-40C1-9873-778868BCF080}</Project>
+      <Name>DefaultProject.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands" />
+    <Folder Include="Entities" />
+    <Folder Include="Handlers" />
+  </ItemGroup>
+</Project>

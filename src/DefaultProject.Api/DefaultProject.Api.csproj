@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DefaultProject.Infra\DefaultProject.Infra.csproj">
+      <Project>{228A84AE-F434-4396-9EDD-6BFAFE279C38}</Project>
+      <Name>DefaultProject.Infra</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
